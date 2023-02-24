@@ -7,6 +7,6 @@ game:GetService("Players").PlayerAdded:Connect(function(player) -- Same as your 
         character.RightLowerLeg.MeshId = "http://www.roblox.com/asset/?id=902942093"
         character.RightLowerLeg.Transparency = "1"
         character.Head.Transparency = "1"
-        character.Face.Transparency = "1"
+        character.Head.face.Transparency = "1"
     end)
 end)
