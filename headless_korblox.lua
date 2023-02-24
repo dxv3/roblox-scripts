@@ -1,5 +1,5 @@
-game:GetService("Players").PlayerAdded:Connect(function(player) -- Same as your first line.
-    player.CharacterAdded:Connect(function(character) -- The following code will happen every time you spawn.
+game:GetService("Players").PlayerAdded:Connect(function(player)
+    player.CharacterAdded:Connect(function(character)
         local character = game.Players.LocalPlayer.Character
         character.RightFoot.Transparency = "1"
         character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
